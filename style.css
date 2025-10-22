@@ -8,9 +8,20 @@ body{
     background-color: none;
     
 }
+.banner{ 
+    width: 100%;
+    height: 900px;
+}
+.cointaner{
+    width: 100%;
+    height: 900px;
+    position: relative;
+}
+
+
 header{
     width: 100%;
-  background-color:    #51caec;
+  background-color:    #4f409b;
     color: white;
     display: flex;
 }
@@ -21,17 +32,20 @@ header{
     margin-left: 20px;
     padding: 10px;
     margin-top: 10px;
+    text-transform: capitalize;
+    
+
 }
 .navbar{
     display: flex;
-    padding-left: 600px;
+    padding-left: 750px;
      
 }
 .navbar ul{
     list-style: none;
 }
 .navbar ul li{
-    background-color: #73adbc  ;
+    background-color: #4f409b  ;
     width: 100px;
     
     height: 50px;
@@ -51,7 +65,7 @@ header{
     justify-content: center;
 }
 .navbar ul li:hover{
-    background-color:    #099fc8;
+    background-color:    #432cb3;
     transition: all ease-in-out 0.5s;
 
 }
@@ -65,7 +79,7 @@ header{
 
 header{
     width: 100%;
-  background-color:    #73adbc;
+  background-color:   #4f409b;
     color: white;
     display: flex;
 }
